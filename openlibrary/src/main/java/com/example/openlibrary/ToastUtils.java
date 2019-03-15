@@ -4,8 +4,8 @@ import android.content.Context;
 import android.widget.Toast;
 
 public class ToastUtils {
-    public static void Toast(Context context){
-        Toast.makeText(context, "测试", Toast.LENGTH_SHORT).show();
+    public static void Toast(Context context,String msg){
+        Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();
     }
 
 
